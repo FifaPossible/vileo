@@ -129,8 +129,8 @@ const Navbar = ({ current }: Current) => {
                            } hover:text-gray-400`}
                            onClick={closeNavbar}
                         >
-                           <Link href="/categories/recommendation">
-                              <a>Recommendation</a>
+                           <Link href="/categories/recommendations">
+                              <a>Recommendations</a>
                            </Link>
                         </li>
                      </ul>
