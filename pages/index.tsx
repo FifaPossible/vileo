@@ -8,7 +8,7 @@ const Home: NextPage = () => {
    return (
       <Fragment>
          <Navbar current="/" />
-         <div className="text-5xl flex items-center justify-center mt-10 hand-written">
+         <div className="text-5xl flex items-center justify-center mt-10">
             <div className="text-white  p-1">
                <div className="text-center mb-2">Welcome to Vileo</div>
                <div className="text-2xl text-center text-gray-300  p-1 mt-2 mb-3">

@@ -19,8 +19,17 @@ const Navbar = ({ current }: Current) => {
                <div>
                   <div className="flex items-center justify-between py-2 md:py-3 md:block">
                      <a href="#">
-                        <h2 className="text-2xl text-white font-bold">
-                           <span className="text-4xl">📺</span>VILEO
+                        <h2 className="text-2xl text-white font-bold flex">
+                           {/* <span className="text-4xl">📺</span>VILEO */}
+                           <span className="text-4xl">
+                              <img
+                                 src="/favicon.png"
+                                 height={30}
+                                 width={30}
+                                 alt="logo"
+                              />
+                           </span>
+                           VILEO
                         </h2>
                      </a>
                      <div className="md:hidden">
